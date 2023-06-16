@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "629582960373",
+    "project_id": "testrealm-abe08",
+    "storage_bucket": "testrealm-abe08.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629582960373:android:4565a02d89dcd8cd0417bc",
+        "android_client_info": {
+          "package_name": "com.example.test_realm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629582960373-d15j5479sa7bpnfk8ali4ds1d2ml37i0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqxcWV28dSdhyRa2FC7TkO92KifSvic4s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629582960373-d15j5479sa7bpnfk8ali4ds1d2ml37i0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "629582960373-q76h3nd7kemqe227a6fv15cmbkmg0iev.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.testRealm"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
