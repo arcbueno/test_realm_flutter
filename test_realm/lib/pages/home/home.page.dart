@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:realm/realm.dart';
+import 'package:test_realm/flavors.dart';
 import 'package:test_realm/models/task/task.dart';
 import 'package:test_realm/repositories/task_repository.dart';
 
@@ -30,7 +31,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Realm Test'),
+        title: Text('Hello ${F.title}'),
         actions: [
           if (isSyncing)
             const CircularProgressIndicator()

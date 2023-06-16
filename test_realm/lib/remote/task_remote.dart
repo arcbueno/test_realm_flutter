@@ -1,8 +1,9 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:test_realm/flavors.dart';
 import 'package:test_realm/models/task/task.dart';
 
 class TaskRemote {
-  static const String collectionName = 'Tasks';
+  static final String collectionName = '${F.collectionPrefix}-Tasks';
   late final FirebaseFirestore remoteDb;
   TaskRemote() {
     remoteDb = FirebaseFirestore.instance;
