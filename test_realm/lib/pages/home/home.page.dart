@@ -67,10 +67,18 @@ class _HomePageState extends State<HomePage> {
             padding: const EdgeInsets.all(8.0),
             child: Column(
               children: <Widget>[
-                Text(
-                  'Minha lista de tarefas',
-                  style: Theme.of(context).textTheme.titleLarge,
-                ),
+                if (F.isFree)
+                  SizedBox(
+                    height: 300,
+                    child: Image.network(
+                        'https://img.freepik.com/vetores-gratis/vetor-de-emblema-promocional-livre-vermelho_53876-40850.jpg'),
+                  ),
+                if (F.isPaid)
+                  SizedBox(
+                    height: 300,
+                    child: Image.network(
+                        'https://t4.ftcdn.net/jpg/03/45/69/79/360_F_345697979_yGf5jISzqx9XEhb7WvdWe0SjoW4Nt0hh.jpg'),
+                  ),
                 ListView.builder(
                   shrinkWrap: true,
                   itemCount: allTasks.length,

@@ -18,7 +18,7 @@ class F {
       case Flavor.free:
         return 'Free App';
       default:
-        return 'title';
+        return '-';
     }
   }
 
